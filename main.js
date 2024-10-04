@@ -4,7 +4,7 @@
 - Chiedere all’utente di inserire una parola 
 - Creare una funzione per capire se la parola inserita è palindroma */
 
-/* function palindrome_word() {
+function palindrome_word() {
     let word = prompt('Inserisci la tua parola')
     console.log(word);
     let splitWord = word.split('')
@@ -19,7 +19,7 @@
 }
     
 palindrome_word()
- */
+
 
 
 
