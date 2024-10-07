@@ -4,7 +4,7 @@
 - Chiedere all’utente di inserire una parola 
 - Creare una funzione per capire se la parola inserita è palindroma */
 
-let word = prompt('Inserisci la tua parola')
+/* let word = prompt('Inserisci la tua parola')
 console.log(word);
 
 function palindrome_word(word) {
@@ -19,7 +19,7 @@ function palindrome_word(word) {
     }
 }
     
-palindrome_word(word)
+palindrome_word(word) */
 
 
 
@@ -37,7 +37,7 @@ palindrome_word(word)
 - Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione) 
 - Dichiariamo chi ha vinto. */
 
-/* let user_even_odd = prompt('Pari o Dispari ?')
+let user_even_odd = prompt('Pari o Dispari ?')
 console.log(user_even_odd);
 
 let user_number = Number(prompt('Scegli un numero da 1 a 5'))
@@ -48,6 +48,8 @@ function cpu_number() {
     return Math.floor(Math.random() * 5) +1;
     
 }
+
+console.log(cpu_number());
 
 let sum = user_number + cpu_number()
 console.log(sum);
@@ -60,4 +62,4 @@ function winner() {
     }
 }
 
-winner() */
+winner()
